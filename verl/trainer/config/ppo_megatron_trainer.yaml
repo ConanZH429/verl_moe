@@ -164,6 +164,7 @@ trainer:
   device: cuda
   # Directory for logging rollout data; no dump if null
   rollout_data_dir: null
+  validation_data_dir: null
 
   # whether to use legacy worker implementation
   #  mode: "auto", "enable", or "disable"
